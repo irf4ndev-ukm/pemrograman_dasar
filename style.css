@@ -27,4 +27,6 @@ img {
     background-color: aliceblue;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
+    width: 500px;
 }
