@@ -30,3 +30,19 @@ img {
     flex-direction: column;
     width: 500px;
 }
+.form_login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input_form{
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: solid 1px green;
+}
+.button_form{
+    padding: 5px;
+    background-color: green;
+    border-radius: 10px;
+}
