@@ -1,0 +1,30 @@
+/* Menghapus setelan bawaan browser */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Membuat pengaturan lebar & tinggi lebih akurat */
+}
+
+/* Membersihkan gaya list untuk navigasi/menu */
+ol, ul {
+    list-style: none;
+}
+
+/* Membersihkan gaya link bawaan */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Memastikan gambar tidak merusak layout */
+img {
+    max-width: 100%;
+    display: block;
+}
+.login_card{
+    margin: auto;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+}
